@@ -1,0 +1,701 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 375px;
+  background: #dedede;
+}
+
+.header {
+  line-height: 80px;
+  height: 60px;
+  background-color: #e7eaef;
+  display: flex;
+}
+.header-icon-menu {
+  margin-left: 15px;
+}
+.header-icon-menu img {
+  width: 24px;
+  height: 24px;
+}
+.header-icon-menu:hover {
+  cursor: pointer;
+}
+.header-icon-logo {
+  margin-left: 100px;
+}
+.header-icon-logo img {
+  width: 78px;
+  height: 32px;
+}
+.header-icon-logo:hover {
+  cursor: pointer;
+}
+.header-icon-search {
+  margin-left: 80px;
+}
+.header-icon-search img {
+  width: 24px;
+  height: 24px;
+}
+.header-icon-search:hover {
+  cursor: pointer;
+}
+.header-icon-cart {
+  margin-left: 15px;
+}
+.header-icon-cart img {
+  width: 24px;
+  height: 24px;
+}
+.header-icon-cart:hover {
+  cursor: pointer;
+}
+
+.banner {
+  position: relative;
+}
+.banner img {
+  width: 375px;
+  height: 620px;
+}
+.banner-text-1 {
+  left: 27px;
+  position: absolute;
+  top: 231.44px;
+  font-family: "Bodoni Moda 28pt";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 38.6564px;
+  letter-spacing: 1.20801px;
+  color: #333333;
+  opacity: 0.7;
+}
+.banner-text-2 {
+  left: 35px;
+  position: absolute;
+  top: 275px;
+  font-family: "Bodoni Moda 28pt";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 38.6564px;
+  letter-spacing: 1.20801px;
+  color: #333333;
+  opacity: 0.7;
+}
+.banner-text-3 {
+  left: 25px;
+  position: absolute;
+  top: 315px;
+  font-family: "Bodoni Moda 28pt";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 38.6564px;
+  letter-spacing: 1.20801px;
+  color: #333333;
+  opacity: 0.7;
+}
+.banner-button {
+  position: absolute;
+  width: 255px;
+  height: 40px;
+  left: 63px;
+  top: 525px;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  border-radius: 30px;
+}
+.banner-button button {
+  background: none;
+  border: none;
+  color: white;
+  margin: 10px 45px;
+}
+.banner-slide {
+  display: flex;
+  position: absolute;
+  width: 40px;
+  height: 8px;
+  justify-content: space-between;
+  left: 167.5px;
+  top: 590px;
+}
+.banner-slide-slide-square1 {
+  width: 8px;
+  height: 8px;
+  background: #fcfcfc;
+  transform: rotate(45deg);
+}
+.banner-slide-slide-square2 {
+  width: 8px;
+  height: 8px;
+  border: 0.5px solid #fcfcfc;
+  box-sizing: border-box;
+  transform: rotate(45deg);
+}
+.banner-slide-slide-square3 {
+  width: 8px;
+  height: 8px;
+  border: 0.5px solid #fcfcfc;
+  box-sizing: border-box;
+  transform: rotate(45deg);
+}
+
+.newarrival {
+  padding-top: 30px;
+  background-color: #fff;
+  font-family: "Tenor Sans";
+  position: relative;
+}
+.newarrival h3 {
+  margin-bottom: -8px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.newarrival .section1 {
+  width: 124.96px;
+  position: absolute;
+  left: 32.7%;
+}
+.newarrival ul {
+  margin-top: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  margin-bottom: 0px;
+}
+.newarrival-retangle {
+  margin: 3px 48px;
+  width: 5px;
+  height: 5px;
+  background: #dd8560;
+  transform: rotate(45deg);
+}
+.newarrival-products {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.newarrival-products img {
+  width: 170px;
+}
+.newarrival-products-product {
+  margin: 0 auto;
+}
+.newarrival-products .newarrival-product-name, .newarrival-products .newarrival-product-price {
+  text-align: center;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0;
+}
+.newarrival-products .newarrival-product-price {
+  color: #dd8560;
+}
+.newarrival .explore-more {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.newarrival .explore-more h3 {
+  margin: 0;
+}
+.newarrival .explore-more img {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+.newarrival .section2 {
+  margin-top: 25px;
+  width: 124.96px;
+  position: absolute;
+  left: 45.7%;
+}
+
+.devider {
+  margin: 25px;
+  width: 124.96px;
+  position: relative;
+  left: 25.7%;
+}
+
+.all-brand {
+  background-color: #fff;
+}
+
+.brand {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+  justify-items: center;
+}
+.brand-1 img {
+  width: 69px;
+  height: 10px;
+}
+.brand-2 img {
+  width: 98px;
+  height: 10px;
+}
+.brand-3 img {
+  width: 52px;
+  height: 20px;
+}
+.brand-4 img {
+  width: 72px;
+  height: 20px;
+}
+.brand-5 img {
+  width: 95px;
+  height: 15px;
+}
+.brand-6 img {
+  width: 98px;
+  height: 12px;
+}
+
+.collections {
+  background-color: #fff;
+  position: relative;
+}
+.collections h3 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.collections img {
+  margin-top: 10px;
+  width: 375px;
+  height: 250px;
+}
+.collections .collection-10-number {
+  left: 50%;
+  top: 13%;
+  position: absolute;
+  font-family: "Bodoni Moda 28pt";
+  font-style: italic;
+  font-weight: 800;
+  font-size: 180px;
+  line-height: 248px;
+  letter-spacing: -22.5px;
+  color: #333333;
+  opacity: 0.5;
+}
+.collections .collection-10-october {
+  top: 26%;
+  font-family: "Bodoni Moda 28pt";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 39.8646px;
+  color: #fcfcfc;
+  position: absolute;
+  left: 61%;
+}
+.collections .collection-10-collection {
+  top: 33%;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.9294px;
+  letter-spacing: 6.06064px;
+  text-transform: uppercase;
+  color: #fcfcfc;
+  position: absolute;
+  left: 60%;
+}
+.collections .collection-8 {
+  align-items: center;
+  padding: 30px 60px;
+  position: relative;
+  background-color: #fff;
+}
+.collections .collection-8 img {
+  width: 260px;
+  height: 296px;
+}
+.collections .collection-8-autumn {
+  position: absolute;
+  font-family: "Bodoni Moda 28pt";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 41.8646px;
+  letter-spacing: -1px;
+  color: #333333;
+  opacity: 0.8;
+  left: 40%;
+  top: 15%;
+}
+.collections .collection-8-collection {
+  position: absolute;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #333333;
+  left: 43%;
+  top: 30%;
+}
+
+.video {
+  padding: auto;
+  position: relative;
+}
+.video-background {
+  width: 375px;
+  height: 175px;
+}
+.video-btn-play {
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  left: 46%;
+  top: 42%;
+}
+
+.product {
+  margin-top: -5px;
+  background-color: #fff;
+  padding: 40px 0px;
+}
+.product h3 {
+  margin: 0;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.product .devider {
+  margin: 25px;
+  width: 124.96px;
+  position: relative;
+  left: 25.7%;
+}
+.product .product-item {
+  display: flex;
+}
+.product .product-item-img1 img {
+  width: 255px;
+  height: 311px;
+  margin: 0 10px;
+}
+.product .product-item-img1-name {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+  margin: 5px 6px 0px 6px;
+}
+.product .product-item-img1-price {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  font-size: 20px;
+  color: #dd8560;
+  margin-top: 8px;
+}
+.product .product-item-img2 img {
+  height: 311px;
+}
+.product .product-item-img2-name {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+  padding: 5px 0px 0px 20px;
+}
+.product .product-square {
+  display: flex;
+  margin: 25px auto;
+  width: 40px;
+  height: 8px;
+  justify-content: space-between;
+}
+.product .product-square-square1 {
+  width: 8px;
+  height: 8px;
+  background: #888888;
+  transform: rotate(45deg);
+}
+.product .product-square-square2 {
+  width: 8px;
+  height: 8px;
+  border: 0.5px solid #888888;
+  box-sizing: border-box;
+  transform: rotate(45deg);
+}
+.product .product-square-square3 {
+  width: 8px;
+  height: 8px;
+  border: 0.5px solid #888888;
+  box-sizing: border-box;
+  transform: rotate(45deg);
+}
+
+.trending {
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+.trending h3 {
+  margin: 0px;
+  padding-bottom: 20px;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.trending-tag {
+  margin: 0 15px;
+  display: flex;
+}
+.trending-tag .trending-tag-2021, .trending-tag .trending-tag-openfashion, .trending-tag .trending-tag-autumncollection, .trending-tag .trending-tag-dress, .trending-tag .trending-tag-fall, .trending-tag .trending-tag-collection, .trending-tag .trending-tag-spring {
+  background-color: #f9f9f9;
+  padding: 8px 10px;
+  border-radius: 30px;
+  margin: 5px 10px;
+}
+.openfashion {
+  background: #f2f2f2;
+  padding: 40px 10px;
+}
+.openfashion-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 97px;
+  height: 40px;
+}
+.openfashion-text {
+  margin-top: 20px;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #555555;
+}
+.openfashion .devider {
+  left: 20%;
+}
+.openfashion-sticker {
+  display: flex;
+}
+.openfashion-sticker-1 {
+  text-align: center;
+}
+.openfashion-sticker-1 img {
+  width: 55px;
+  height: 38px;
+}
+.openfashion-sticker-1 p {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #555555;
+  padding: 0 25px;
+}
+.openfashion-sticker-2 {
+  text-align: center;
+}
+.openfashion-sticker-2 img {
+  width: 55px;
+  height: 38px;
+}
+.openfashion-sticker-2 p {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #555555;
+  padding: 0 25px;
+}
+.openfashion-sticker-3 {
+  text-align: center;
+}
+.openfashion-sticker-3 img {
+  width: 55px;
+  height: 38px;
+}
+.openfashion-sticker-3 p {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #555555;
+  padding: 0 25px;
+}
+.openfashion-sticker-4 {
+  text-align: center;
+}
+.openfashion-sticker-4 img {
+  width: 55px;
+  height: 38px;
+}
+.openfashion-sticker-4 p {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #555555;
+  padding: 0 25px;
+}
+.openfashion-sticker-end {
+  display: block;
+  margin: 30px auto 0px auto;
+  width: 66px;
+  height: 40px;
+}
+
+.follow-us {
+  background-color: #fff;
+  padding-top: 30px;
+}
+.follow-us h3 {
+  margin: 0px;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.follow-us-instagram {
+  display: block;
+  width: 21px;
+  height: 21px;
+  margin: 10px auto 20px auto;
+}
+.follow-us-image {
+  justify-content: space-evenly;
+  margin: 10px auto auto 0;
+  display: flex;
+}
+.follow-us-image-1, .follow-us-image-4, .follow-us-image-3, .follow-us-image-2 {
+  position: relative;
+  width: 164px;
+  height: 164px;
+  background-image: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url("../assets/Rectangle332.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.follow-us-image-1 p, .follow-us-image-4 p, .follow-us-image-3 p, .follow-us-image-2 p {
+  position: absolute;
+  left: 5%;
+  bottom: 7%;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin: 0px;
+}
+.follow-us-image-2 {
+  background-image: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url("../assets/Rectangle333.png");
+}
+.follow-us-image-3 {
+  background-image: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url("../assets/Rectangle334.png");
+}
+.follow-us-image-4 {
+  background-image: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url("../assets/Rectangle335.png");
+}
+
+.footer {
+  background: #ffffff;
+}
+.footer-social-icon {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-social-icon-twitter {
+  width: 20px;
+  height: 17px;
+  margin-left: 80px;
+}
+.footer-social-icon-insta {
+  width: 19px;
+  height: 19px;
+}
+.footer-social-icon-youtube {
+  width: 20px;
+  height: 17px;
+  margin-right: 80px;
+}
+.footer .devider {
+  margin: 25px;
+  width: 110px;
+  left: 28.7%;
+}
+.footer-text {
+  margin: 0;
+  padding: 0 96px;
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 184%;
+  text-align: center;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-info p {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+}
+.footer-end {
+  padding: 5px 0px;
+  background-color: #f9f9f9;
+}
+.footer-end p {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #555555;
+}
+
+/*# sourceMappingURL=style.css.map */
